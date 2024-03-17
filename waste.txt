@@ -1,0 +1,117 @@
+{/* <Modal icon={<CloudArrowUp size={28} color="#1B4DFF" />} size="xl" show={state.booking.showModel} onClose={handleCanelButton}>
+                                <Modal.Header className="Upgrade_label">Upgrade Seat</Modal.Header>
+                                <Modal.Body className="pb-3 text-justify">
+                                    <div className="upgrade_seat_info m-0">Upgrade your seat for just ₹5000 and experience the luxury of 45% more legroom. Our upgraded seats also recline 40% more than economy, ensuring a more comfortable and enjoyable journey for you.</div>
+                                </Modal.Body>
+                                <Modal.Footer>
+                                    <Button type="outlineGray" className="Cancel" onClick={handleCanelButton}>
+                                        Cancel
+                                    </Button>
+                                    <Button type="primary" className="text-justify bg-amber-400 hover:bg-amber-300 active:bg-amber-200 upgrade" onClick={handleUpgradeButton}>
+                                        Upgrade
+                                    </Button>
+                                </Modal.Footer>
+                            </Modal> */}
+
+
+                            {/* <Modal icon={<CloudArrowUp size={28} color="#1B4DFF" />} size="2xl" show={state.booking.offerContainer} onClose={handleOffer}>
+                    <Modal.Header className="Upgrade_label pb-0">Cancellation Policy</Modal.Header>
+                    <Modal.Body className="pb-0">
+                        {FareTypeData.Cancellation_condition.map((condition, index) => (
+                            <div key={index} className="Offer">
+                                <div className="cancel_points pt-1 pb-1">{condition.OfferName}</div>
+                                <div className="cancel_point_detail">{condition.OfferDetail}</div>
+                            </div>
+                        ))}
+                    </Modal.Body>
+                    <Modal.Footer>
+                        <Button type="outlineGray" className="Cancel" onClick={handleOffer}>
+                            Cancel
+                        </Button>
+                        <Button type="primary" className="text-justify bg-amber-400 hover:bg-amber-300 active:bg-amber-200 py-0 upgrade" onClick={handleOffer}>
+                            Confirm
+                        </Button>
+                    </Modal.Footer>
+                </Modal> */}
+
+
+                {/* <Modal size="lg" aria-labelledby="contained-modal-title-vcenter" show={state.booking.showModel}>
+                                        <Modal.Header>
+                                            <Modal.Title id="contained-modal-title-vcenter"><h4 className="Upgrade_label pb-0">Edit Profile</h4></Modal.Title>
+                                        </Modal.Header>
+                                        <Modal.Body className="pb-0">
+                                            <div className="input_area">
+                                            {["Fullname","PhoneNumber","MaritalStatus","Gender", "Pincode"].map((field) => (
+                                                <input
+                                                    key={field}
+                                                    type={field}
+                                                    name={field}
+                                                    autoComplete="off"
+                                                    value={state.booking.passengerAccInfo[field]}
+                                                    onChange={(e) => handleChange(e)}
+                                                    className="name"
+                                                    placeholder={fieldPlaceholders[field] || `${field.charAt(0).toUpperCase()}${field.slice(1)}*`}
+                                                />
+                                            ))}
+                                        </div>
+                                            <div className="Another_info mt-4">
+                                            {["Address"].map((field) => (
+                                                <input
+                                                    key={field}
+                                                    type="text"
+                                                    name={field}
+                                                    autoComplete="off"
+                                                    value={state.booking.passengerAccInfo[field]}
+                                                    onChange={(e) => handleChange(e)}
+                                                    className="otherInfo"
+                                                    placeholder={`${field === "Address" ? "Residential address" : fieldPlaceholders[field] || `${field.charAt(0).toUpperCase()}${field.slice(1)}*`}`}
+                                                />
+                                            ))}
+                                        </div>  
+                                        </Modal.Body>
+                                        <Modal.Footer>
+                                            <Button className="text-justify bg-amber-400 hover:bg-amber-300 active:bg-amber-200 upgrade" onClick={handleEditModal}>Close</Button>
+                                            <Button onClick={handleEditModal} className="bg-amber-400 hover:bg-amber-300 focus:bg-amber-400 active:bg-amber-400 upgrade">Confirm</Button>
+                                        </Modal.Footer>
+                                    </Modal> */}
+                                    {/* <Modal icon={<PenNib size={28} color="#fbbf24" backgrond="#fff"/>} size="xl" show={state.booking.showModel}>
+                                        <Modal.Header className="text-metal-600 Upgrade_label">Edit Profile</Modal.Header>
+                                        <Modal.Body>
+                                            <div className="input_area">
+                                            {["Fullname","PhoneNumber","MaritalStatus","Gender", "Pincode"].map((field) => (
+                                                <input
+                                                    key={field}
+                                                    type={field}
+                                                    name={field}
+                                                    autoComplete="off"
+                                                    value={state.booking.passengerAccInfo[field]}
+                                                    onChange={(e) => handleChange(e)}
+                                                    className="name"
+                                                    placeholder={fieldPlaceholders[field] || `${field.charAt(0).toUpperCase()}${field.slice(1)}*`}
+                                                />
+                                            ))}
+                                        </div>
+                                            <div className="Another_info mt-4">
+                                            {["Address"].map((field, index) => (
+                                                <input
+                                                    key={field}
+                                                    type="text"
+                                                    name={field}
+                                                    autoComplete="off"
+                                                    value={state.booking.passengerAccInfo[field]}
+                                                    onChange={(e) => handleChange(e)}
+                                                    className="otherInfo"
+                                                    placeholder={`${field === "Address" ? "Residential address" : fieldPlaceholders[field] || `${field.charAt(0).toUpperCase()}${field.slice(1)}*`}`}
+                                                />
+                                            ))}
+                                        </div>    
+                                        </Modal.Body>
+                                        <Modal.Footer>
+                                            <Button type="outlineGray" className="Cancel" onClick={handleEditModal}>
+                                                Cancel
+                                            </Button>
+                                            <Button type="primary" onClick={handleEditModal} className="bg-amber-400 hover:bg-amber-300 focus:bg-amber-400 active:bg-amber-400 upgrade">
+                                                Confirm
+                                            </Button>
+                                        </Modal.Footer>
+                                    </Modal> */}
