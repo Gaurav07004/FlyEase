@@ -1,8 +1,1 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+FlyEase is a web application that aims to streamline the flight planning process, ensuring a seamless user experience. FlyEase leverages the MERN (MongoDB, Express.js, React.js, Node.js) stack, providing users with an easy-to-use interface for checking in, selecting seats and managing payments handle it properly
